@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,7 +11,7 @@
     "import-data": "node scripts/importSanityData.mjs"
   },
   "dependencies": {
-    "sweetalert2": "^latest-secure-version",
+    "sweetalert2": "11.15.10",
     "@sanity/client": "^6.25.0",
     "@sanity/image-url": "^1.1.0",
     "@sanity/vision": "^3.70.0",
